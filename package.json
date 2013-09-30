@@ -1,0 +1,35 @@
+{
+  "name": "sysexits",
+  "version": "1.0.0",
+  "description": "Provide standard sysexits(3) exit codes.",
+  "keywords": [
+    "code",
+    "exit",
+    "sysexits",
+    "return",
+    "error",
+    "cli",
+    "command"
+  ],
+  "homepage": "https://github.com/undashes/sysexits",
+  "bugs": "https://github.com/undashes/sysexits/issues",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.github.com/undashes/sysexits/master/LICENSE"
+    }
+  ],
+  "author": {
+    "name": "Jean Lauliac",
+    "email": "jean@lauliac.com"
+  },
+  "files": ["sysexits.js"],
+  "main": "sysexits.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/undashes/sysexits.git"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  }
+}

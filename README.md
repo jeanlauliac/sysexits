@@ -1,0 +1,28 @@
+# sysexits
+
+Provide `sysexits(3)` exit codes in Node.js.
+
+## Why?
+
+It avoids having arbitrary exit codes and get them consistent with UNIX tools.
+For instance, an invalid CLI usage should return 64.
+
+## Install
+
+    npm install sysexits
+
+## Example
+
+```js
+var ex = require('sysexits');
+
+if (process.args.length < 3) {
+    console.log 'error:', ex.desc[ex.USAGE]
+    process.exit(ex.USAGE);
+}
+
+/* etc. */
+```
+
+See `sysexits.js` for the complete list of codes.
+
