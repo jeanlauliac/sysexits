@@ -3,6 +3,7 @@
 module.exports = {
     // General codes.
     OK: 0,
+    GENERAL: 1,
     // sysexits codes.
     USAGE: 64,
     DATAERR: 65,
@@ -27,6 +28,7 @@ module.exports = {
 
 module.exports.desc = {
     0: 'successful termination',
+    1: 'general error',
     64: 'command line usage error',
     65: 'data format error',
     66: 'cannot open input',
