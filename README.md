@@ -14,11 +14,11 @@ For instance, an invalid CLI usage should return 64.
 ## Example
 
 ```js
-var ex = require('sysexits');
+var Exit = require('sysexits');
 
 if (process.args.length < 3) {
-    console.log 'error:', ex.desc[ex.USAGE]
-    process.exit(ex.USAGE);
+    console.log 'error:', Exit.desc[Exit.USAGE]
+    process.exit(Exit.USAGE);
 }
 
 /* etc. */
